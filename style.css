@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    padding: 15px 35px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    color: orangered;
+    background-color: transparent;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    border-style:outset;
+}
+/*nav related style*/
+.header {
+    background-color: #FEF9E7;
+    padding-top: 30px;
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+    width: 100%;
+}
+nav {
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlight-text {
+    color: orangered;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #181818;
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 600px;
+}
+.banner-img {
+    width: 700px;
+}
+.banner-content .btn-primary {
+    margin-right: 50px;
+}
+.banner-greeting {
+    font-size: 45px;
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+.banner-title {
+    font-size: 90px;
+    font-weight: 700;
+    color: #3c3c3c;
+    margin-top: 5px;
+}
+.banner-description {
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: justify;
+    
+}
+
+/*main section style*/
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main section {
+    margin-top: 130px;
+}
+/*about section style*/
+
+.about {
+    margin: 130px 0;
+    padding: 130px;
+    border-radius: 10px;
+    background-color:#FEF9E7;
+    
+}
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+    
+}
+.section-description {
+    color: #3c3c3c;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 30px;
+
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-info {
+    text-align: center;
+}
+.about-info-description {
+    padding: 20px 0;
+}
+
+/*Skills Related Style*/
+
+#skill {
+    padding: 30px 150px;
+}
+.skills-container {
+    display: flex;
+    gap: 35px; 
+}
+.skill-brief {
+    color: #3c3c3c;
+}
+.skill-coloumn {
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.skill-name {
+    padding: 20px 0;
+}
+
+
+/*Resume section style*/
+
+.resume {
+    color: orangered;
+}
+.resume-column-title {
+    color: #3c3c3c;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 0;
+    
+}
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    padding: 20px 10px;
+    gap: 50px;
+}
+.resume-item-title {
+    color: #3c3c3c;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute {
+    margin: 15px 0;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 700;
+}
+.resume-item-description {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 60px;
+}
+.resume-column hr {
+    margin: 40px 0px;
+
+}
+.download-cv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Footer Section Style*/
+
+footer {
+    background-color:#FEF9E7;
+    padding-bottom: 20px;
+}
+.footer-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column {
+    width: 50%;
+    
+}
+.footer-column h3 {
+    text-align: justify;
+}
+.footer-column p {
+    padding-left: 0;
+}
+.social-link a {
+    margin-right: 20px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #707070;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+}
+footer .copyright { 
+    text-align: center;
+}
